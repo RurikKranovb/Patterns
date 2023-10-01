@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Core
 {
+    //Product
     public abstract class House
     {
     }

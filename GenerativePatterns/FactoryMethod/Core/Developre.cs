@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace FactoryMethod.Core
 {
     // абстрактный класс строительной компании
+    //Creater
     public abstract class Developer
     {
         public string Name { get; set; }
