@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Builder.Infrastructure
 {
+    //Строитель
     public class WheatBreadBuilder : BreadBuilder
     {
         public override void SetFlour()
