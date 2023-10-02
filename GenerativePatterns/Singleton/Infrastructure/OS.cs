@@ -8,7 +8,7 @@ namespace Singleton.Infrastructure
 {
     public class OS
     {
-        private static OS instance;
+        private static OS? instance;
 
         public string Name { get; private set; }
         private static object syncRoot = new object();
