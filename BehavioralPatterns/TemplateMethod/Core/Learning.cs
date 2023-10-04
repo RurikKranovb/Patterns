@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TemplateMethod.Core
 {
-    internal class Learning
+    public abstract class Learning
     {
+        public abstract void Learn();
     }
 }

@@ -1,8 +1,16 @@
-﻿internal class Program
+﻿using TemplateMethod.Infrastructure;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        School school = new School();
+        University university = new University();
+
+        school.Learn();
+        university.Learn();
+
+
     }
 }
 
