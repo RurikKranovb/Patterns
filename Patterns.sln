@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "StructuralPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "StructuralPatterns\Proxy\Proxy.csproj", "{1832BA6A-5CBA-407C-804D-4137E46AE8BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "StructuralPatterns\Bridge\Bridge.csproj", "{5B742222-B988-4137-B074-9BA2B2BD2E5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1832BA6A-5CBA-407C-804D-4137E46AE8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1832BA6A-5CBA-407C-804D-4137E46AE8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1832BA6A-5CBA-407C-804D-4137E46AE8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B742222-B988-4137-B074-9BA2B2BD2E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B742222-B988-4137-B074-9BA2B2BD2E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B742222-B988-4137-B074-9BA2B2BD2E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B742222-B988-4137-B074-9BA2B2BD2E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{94CBCF3F-7DA1-4568-8EBA-1A1748E58E13} = {3DAEFB0F-CB6E-4307-BA9C-42658979A08F}
 		{1CF40EF9-84EC-475C-A60D-204EDF1C0E1C} = {3DAEFB0F-CB6E-4307-BA9C-42658979A08F}
 		{1832BA6A-5CBA-407C-804D-4137E46AE8BB} = {3DAEFB0F-CB6E-4307-BA9C-42658979A08F}
+		{5B742222-B988-4137-B074-9BA2B2BD2E5D} = {3DAEFB0F-CB6E-4307-BA9C-42658979A08F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {533157C4-4664-4E1C-A684-37C3F0A3B432}
